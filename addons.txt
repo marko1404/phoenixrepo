@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+        <addon id="plugin.video.phoenixreborn" name="Phoenix Reborn" version="2.2.6" provider-name="Kodi Phoenix Reborn">
+          <requires>
+            <import addon="xbmc.python" version="2.1.0"/>
+        	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+            <import addon="script.module.beautifulsoup" version="3.2.1"/>
+            <import addon="script.module.simple.downloader" version="0.9.4"/>
+            <import addon="script.module.beautifulsoup4" />
+            <import addon="script.module.simple.downloader" version="0.9.4"/>
+            <import addon="script.module.requests" />
+            <import addon="script.module.httplib2" />
+            <import addon="script.module.youtube.dl" optional="true"/>
+            <import addon="plugin.video.youtube" version="3.0.0"/>
+        	<import addon="script.module.urlresolver" />
+        	<import addon="script.module.simplejson" /> 
+            <import addon="script.common.plugin.cache" version="2.5.2"/>
+            <import addon="script.module.metahandler" version="2.5.1"/>
+          </requires>
+          <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+          </extension>
+          <extension point="xbmc.addon.metadata">
+            <summary lang="en">IPTV Kanali, Pink, Ex-Yu Kanali, Sport, Filmovi, Serije, Radio</summary>
+            <description lang="en">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. Facebook Grupa: Kodi Phoenix Reborn</description>
+            <platform>all</platform>
+          </extension>
+        </addon>
+		
+		<addon id="plugin.video.phoenixrebornenglish"
+			   name="Phoenix Reborn English"
+			   version="1.6.0"
+			   provider-name="Kodi Phoenix Reborn English">
+		  <requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.t0mm0.common" version="2.0.0"/>
+			<import addon="script.module.beautifulsoup" version="3.2.1"/>
+			<import addon="script.module.simple.downloader" version="0.9.4"/>
+			<import addon="script.module.beautifulsoup4" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.httplib2" />
+			<import addon="script.module.youtube.dl" optional="true"/>
+			<import addon="plugin.video.youtube" version="3.0.0"/>
+			<import addon="script.module.urlresolver" />
+			<import addon="script.module.simplejson" /> 
+			<import addon="script.common.plugin.cache" version="2.5.2"/>
+			<import addon="script.module.metahandler" version="2.5.1"/>
+
+		  </requires>
+		  <extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		  </extension>
+		  <extension point="xbmc.addon.metadata">
+			<summary lang="en">Kodi Phoenix Reborn English</summary>
+			<description lang="en">THIS ADDON IS NOT INCLUDED CONTENT. ADDON HAVE ONLY CONTAINS LINKS TO STREAMS.</description>
+			<platform>all</platform>
+		  </extension>
+		</addon>
+		
+		<addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
+			<requires>
+				<import addon="xbmc.python" version="2.1.0"/>
+				<import addon="script.video.F4mProxy" version="2.7.1"/>
+			</requires>
+			<extension point="xbmc.python.pluginsource" library="default.py">
+				<provides>video</provides>
+			</extension>
+			<extension point="xbmc.addon.metadata">
+				<summary>f4mTester</summary>
+				<description></description>
+				<platform>all</platform>
+			</extension>
+		</addon>
+		
+		<addon id="script.ftgpair" name=" [COLOR orange]FTG[/COLOR] Pair" version="1.0.1" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+		  <requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		  </requires>
+		  <extension point="xbmc.python.pluginsource" library="pair.py">
+				<provides>executable</provides>
+		  </extension>
+		  <extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en">Small Script for Pairing</summary>
+			<description lang="en">Small Script for Pairing</description>
+			<disclaimer lang="en">-</disclaimer>
+			<language></language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		  </extension>
+		</addon>
+
+		<addon id="plugin.video.freshstart" name="Fresh Start"
+			version="1.0.6" provider-name="tvaddons.ag">
+		  <requires>
+		   <import addon="plugin.program.indigo" version="1.0.0" />
+			<import addon="xbmc.python" version="2.1.0"/>
+		  </requires>
+		  <extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>executable</provides>
+		  </extension>
+		  <extension point="xbmc.addon.metadata">
+			<summary lang="en">Factory Restore Functionality for Kodi</summary>
+			<description lang="en">Easily Factory Restore your Kodi Configuration in One Simple Click! This tool will bring your Kodi back to its original installation state, deleting all customizations and add-ons you may have previously enabled, giving you a fresh start!</description>
+			<platform>all</platform>
+			<forum>http://forums.tvaddons.ag/forums/141-FRESH-START</forum>
+			<website>http://www.tvaddons.ag/</website>
+		  </extension>
+		</addon>
+
+        <addon id="service.subtitles.titlovi-com-official"
+       name="Titlovi.com Official "
+       version="1.1.1"
+       provider-name="titlovi.com">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" />
+        <import addon="script.module.simplecache" version="1.0.11"/>
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Titlovi.com</summary>
+        <description lang="en_GB">Search and download [B]Titlovi.com[/B] subtitles[CR][CR]When using manual search for [B]TV shows[/B] please use this example format for season and episode numbers:[CR]The Wire [B]S01E01[/B]</description>
+        <description lang="hr_HR">Pretražite i preuzmite podnaslove sa [B]Titlovi.com[/B].[CR][CR]Kada koristite prilagođenu pretragu za [B]TV serije[/B] koristite format za sezonu i epizodu kao u ovom primjeru:[CR]The Wire [B]S01E01[/B]</description>
+        <disclaimer lang="en_GB">Users need to provide [B]Titlovi.com[/B] username and password in add-on configuration</disclaimer>
+        <disclaimer lang="hr_HR">Korisnici moraju upisati [B]Titlovi.com[/B] korisničko ime i lozinku u postavke dodatka</disclaimer>
+        <news lang="en_GB">New official addon [CR][CR] -Version 1.1.0[CR] Added Croatian translation, updated addon description</news>
+        <news lang="hr_HR">Novi službeni addon [CR][CR] -Verzija 1.1.0[CR] Dodan hrvatski prijevod, updatean opis addona</news>
+        <platform>all</platform>
+        <language></language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://www.titlovi.com</website>
+        <email>info [at] titlovi {dot} com</email>
+        <forum>https://forum.kodi.tv/showthread.php?tid=325289</forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+			<screenshot>resources/media/screenshot1.jpg</screenshot>
+            <screenshot>resources/media/screenshot2.jpg</screenshot>
+            <screenshot>resources/media/screenshot3.jpg</screenshot>
+		</assets>
+        <source>https://github.com/tturkalj/service.subtitles.titlovi-com-official</source>
+    </extension>
+</addon>
+
+
+</addons>
